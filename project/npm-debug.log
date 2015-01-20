@@ -1,0 +1,498 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json buildstyleguide@0.0.1 No README data
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/quintinschnehage/Sites/_GIT/buildstyleguide/project',
+6 verbose install   [ 'grunt',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-contrib-compass',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'matchdep' ] ]
+7 info preinstall buildstyleguide@0.0.1
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'grunt@~0.4.5', null ]
+10 verbose cache add name=undefined spec="grunt@~0.4.5" args=["grunt@~0.4.5",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'grunt@~0.4.5',
+11 verbose parsed url   path: 'grunt@~0.4.5',
+11 verbose parsed url   href: 'grunt@~0.4.5' }
+12 verbose cache add [ 'grunt-contrib-watch@~0.6.1', null ]
+13 verbose cache add name=undefined spec="grunt-contrib-watch@~0.6.1" args=["grunt-contrib-watch@~0.6.1",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'grunt-contrib-watch@~0.6.1',
+14 verbose parsed url   path: 'grunt-contrib-watch@~0.6.1',
+14 verbose parsed url   href: 'grunt-contrib-watch@~0.6.1' }
+15 verbose cache add [ 'grunt-contrib-compass@~1.0.1', null ]
+16 verbose cache add name=undefined spec="grunt-contrib-compass@~1.0.1" args=["grunt-contrib-compass@~1.0.1",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'grunt-contrib-compass@~1.0.1',
+17 verbose parsed url   path: 'grunt-contrib-compass@~1.0.1',
+17 verbose parsed url   href: 'grunt-contrib-compass@~1.0.1' }
+18 verbose cache add [ 'grunt-contrib-uglify@~0.7.0', null ]
+19 verbose cache add name=undefined spec="grunt-contrib-uglify@~0.7.0" args=["grunt-contrib-uglify@~0.7.0",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'grunt-contrib-uglify@~0.7.0',
+20 verbose parsed url   path: 'grunt-contrib-uglify@~0.7.0',
+20 verbose parsed url   href: 'grunt-contrib-uglify@~0.7.0' }
+21 verbose cache add [ 'matchdep@~1.0.0', null ]
+22 verbose cache add name=undefined spec="matchdep@~1.0.0" args=["matchdep@~1.0.0",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'matchdep@~1.0.0',
+23 verbose parsed url   path: 'matchdep@~1.0.0',
+23 verbose parsed url   href: 'matchdep@~1.0.0' }
+24 verbose cache add name="grunt" spec="~0.4.5" args=["grunt","~0.4.5"]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '~0.4.5',
+25 verbose parsed url   path: '~0.4.5',
+25 verbose parsed url   href: '~0.4.5' }
+26 verbose addNamed [ 'grunt', '~0.4.5' ]
+27 verbose addNamed [ null, '>=0.4.5-0 <0.5.0-0' ]
+28 verbose cache add name="grunt-contrib-watch" spec="~0.6.1" args=["grunt-contrib-watch","~0.6.1"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '~0.6.1',
+29 verbose parsed url   path: '~0.6.1',
+29 verbose parsed url   href: '~0.6.1' }
+30 verbose addNamed [ 'grunt-contrib-watch', '~0.6.1' ]
+31 verbose addNamed [ null, '>=0.6.1-0 <0.7.0-0' ]
+32 verbose cache add name="grunt-contrib-compass" spec="~1.0.1" args=["grunt-contrib-compass","~1.0.1"]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: '~1.0.1',
+33 verbose parsed url   path: '~1.0.1',
+33 verbose parsed url   href: '~1.0.1' }
+34 verbose addNamed [ 'grunt-contrib-compass', '~1.0.1' ]
+35 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+36 verbose cache add name="grunt-contrib-uglify" spec="~0.7.0" args=["grunt-contrib-uglify","~0.7.0"]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '~0.7.0',
+37 verbose parsed url   path: '~0.7.0',
+37 verbose parsed url   href: '~0.7.0' }
+38 verbose addNamed [ 'grunt-contrib-uglify', '~0.7.0' ]
+39 verbose addNamed [ null, '>=0.7.0-0 <0.8.0-0' ]
+40 verbose cache add name="matchdep" spec="~1.0.0" args=["matchdep","~1.0.0"]
+41 verbose parsed url { protocol: null,
+41 verbose parsed url   slashes: null,
+41 verbose parsed url   auth: null,
+41 verbose parsed url   host: null,
+41 verbose parsed url   port: null,
+41 verbose parsed url   hostname: null,
+41 verbose parsed url   hash: null,
+41 verbose parsed url   search: null,
+41 verbose parsed url   query: null,
+41 verbose parsed url   pathname: '~1.0.0',
+41 verbose parsed url   path: '~1.0.0',
+41 verbose parsed url   href: '~1.0.0' }
+42 verbose addNamed [ 'matchdep', '~1.0.0' ]
+43 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+44 silly lockFile 240974bb-grunt-0-4-5 grunt@~0.4.5
+45 verbose lock grunt@~0.4.5 /Users/quintinschnehage/.npm/240974bb-grunt-0-4-5.lock
+46 silly lockFile 82ce6ec8-grunt-contrib-watch-0-6-1 grunt-contrib-watch@~0.6.1
+47 verbose lock grunt-contrib-watch@~0.6.1 /Users/quintinschnehage/.npm/82ce6ec8-grunt-contrib-watch-0-6-1.lock
+48 silly lockFile 86c41233-grunt-contrib-compass-1-0-1 grunt-contrib-compass@~1.0.1
+49 verbose lock grunt-contrib-compass@~1.0.1 /Users/quintinschnehage/.npm/86c41233-grunt-contrib-compass-1-0-1.lock
+50 silly lockFile ed126bab-grunt-contrib-uglify-0-7-0 grunt-contrib-uglify@~0.7.0
+51 verbose lock grunt-contrib-uglify@~0.7.0 /Users/quintinschnehage/.npm/ed126bab-grunt-contrib-uglify-0-7-0.lock
+52 silly lockFile 3c206268-matchdep-1-0-0 matchdep@~1.0.0
+53 verbose lock matchdep@~1.0.0 /Users/quintinschnehage/.npm/3c206268-matchdep-1-0-0.lock
+54 silly addNameRange { name: 'grunt', range: '>=0.4.5-0 <0.5.0-0', hasData: false }
+55 silly addNameRange { name: 'grunt-contrib-watch',
+55 silly addNameRange   range: '>=0.6.1-0 <0.7.0-0',
+55 silly addNameRange   hasData: false }
+56 silly addNameRange { name: 'grunt-contrib-compass',
+56 silly addNameRange   range: '>=1.0.1-0 <1.1.0-0',
+56 silly addNameRange   hasData: false }
+57 silly addNameRange { name: 'grunt-contrib-uglify',
+57 silly addNameRange   range: '>=0.7.0-0 <0.8.0-0',
+57 silly addNameRange   hasData: false }
+58 silly addNameRange { name: 'matchdep', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+59 verbose request where is /grunt
+60 verbose request registry https://registry.npmjs.org/
+61 verbose request id ec13b8ecd885af0f
+62 verbose url raw /grunt
+63 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+64 verbose url resolved https://registry.npmjs.org/grunt
+65 verbose request where is https://registry.npmjs.org/grunt
+66 info trying registry request attempt 1 at 16:32:12
+67 verbose etag "DN3X89VX2YDKBR7X2CQYKRG8J"
+68 http GET https://registry.npmjs.org/grunt
+69 verbose request where is /grunt-contrib-watch
+70 verbose request registry https://registry.npmjs.org/
+71 verbose url raw /grunt-contrib-watch
+72 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-watch' ]
+73 verbose url resolved https://registry.npmjs.org/grunt-contrib-watch
+74 verbose request where is https://registry.npmjs.org/grunt-contrib-watch
+75 info trying registry request attempt 1 at 16:32:12
+76 verbose etag "BVH62SECHP9LVB3HH3X9U5X0X"
+77 http GET https://registry.npmjs.org/grunt-contrib-watch
+78 verbose request where is /grunt-contrib-compass
+79 verbose request registry https://registry.npmjs.org/
+80 verbose url raw /grunt-contrib-compass
+81 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-compass' ]
+82 verbose url resolved https://registry.npmjs.org/grunt-contrib-compass
+83 verbose request where is https://registry.npmjs.org/grunt-contrib-compass
+84 info trying registry request attempt 1 at 16:32:12
+85 verbose etag "BNEKM5CY4WG98XG7ZGUBIAS65"
+86 http GET https://registry.npmjs.org/grunt-contrib-compass
+87 verbose request where is /matchdep
+88 verbose request registry https://registry.npmjs.org/
+89 verbose url raw /matchdep
+90 verbose url resolving [ 'https://registry.npmjs.org/', './matchdep' ]
+91 verbose url resolved https://registry.npmjs.org/matchdep
+92 verbose request where is https://registry.npmjs.org/matchdep
+93 info trying registry request attempt 1 at 16:32:12
+94 verbose etag "GKLI8EV8DEZLNM1SL3V3OWUV"
+95 http GET https://registry.npmjs.org/matchdep
+96 verbose request where is /grunt-contrib-uglify
+97 verbose request registry https://registry.npmjs.org/
+98 verbose url raw /grunt-contrib-uglify
+99 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-uglify' ]
+100 verbose url resolved https://registry.npmjs.org/grunt-contrib-uglify
+101 verbose request where is https://registry.npmjs.org/grunt-contrib-uglify
+102 info trying registry request attempt 1 at 16:32:12
+103 verbose etag "AV2P9GYXLB5PKS4SX7ONS80IE"
+104 http GET https://registry.npmjs.org/grunt-contrib-uglify
+105 http 304 https://registry.npmjs.org/grunt
+106 silly registry.get cb [ 304,
+106 silly registry.get   { date: 'Tue, 20 Jan 2015 14:32:13 GMT',
+106 silly registry.get     server: 'Apache',
+106 silly registry.get     via: '1.1 varnish',
+106 silly registry.get     'last-modified': 'Tue, 20 Jan 2015 14:31:58 GMT',
+106 silly registry.get     'cache-control': 'max-age=60',
+106 silly registry.get     etag: '"DN3X89VX2YDKBR7X2CQYKRG8J"',
+106 silly registry.get     age: '23',
+106 silly registry.get     'x-served-by': 'cache-lhr6335-LHR',
+106 silly registry.get     'x-cache': 'HIT',
+106 silly registry.get     'x-cache-hits': '2',
+106 silly registry.get     'x-timer': 'S1421764333.773686,VS0,VE0',
+106 silly registry.get     vary: 'Accept',
+106 silly registry.get     'content-length': '0',
+106 silly registry.get     'keep-alive': 'timeout=10, max=50',
+106 silly registry.get     connection: 'Keep-Alive' } ]
+107 verbose etag https://registry.npmjs.org/grunt from cache
+108 silly addNameRange number 2 { name: 'grunt', range: '>=0.4.5-0 <0.5.0-0', hasData: true }
+109 silly addNameRange versions [ 'grunt',
+109 silly addNameRange   [ '0.1.0',
+109 silly addNameRange     '0.1.1',
+109 silly addNameRange     '0.1.2',
+109 silly addNameRange     '0.2.0',
+109 silly addNameRange     '0.2.1',
+109 silly addNameRange     '0.2.2',
+109 silly addNameRange     '0.2.3',
+109 silly addNameRange     '0.2.4',
+109 silly addNameRange     '0.2.5',
+109 silly addNameRange     '0.2.6',
+109 silly addNameRange     '0.2.7',
+109 silly addNameRange     '0.2.8',
+109 silly addNameRange     '0.2.9',
+109 silly addNameRange     '0.2.10',
+109 silly addNameRange     '0.2.11',
+109 silly addNameRange     '0.2.12',
+109 silly addNameRange     '0.2.13',
+109 silly addNameRange     '0.2.14',
+109 silly addNameRange     '0.2.15',
+109 silly addNameRange     '0.3.0',
+109 silly addNameRange     '0.3.1',
+109 silly addNameRange     '0.3.2',
+109 silly addNameRange     '0.3.3',
+109 silly addNameRange     '0.3.4',
+109 silly addNameRange     '0.3.5',
+109 silly addNameRange     '0.3.6',
+109 silly addNameRange     '0.3.7',
+109 silly addNameRange     '0.3.8',
+109 silly addNameRange     '0.3.9',
+109 silly addNameRange     '0.3.10',
+109 silly addNameRange     '0.3.11',
+109 silly addNameRange     '0.3.12',
+109 silly addNameRange     '0.3.13',
+109 silly addNameRange     '0.3.14',
+109 silly addNameRange     '0.3.15',
+109 silly addNameRange     '0.3.16',
+109 silly addNameRange     '0.3.17',
+109 silly addNameRange     '0.4.0',
+109 silly addNameRange     '0.4.1',
+109 silly addNameRange     '0.4.2',
+109 silly addNameRange     '0.4.3',
+109 silly addNameRange     '0.4.4',
+109 silly addNameRange     '0.4.5',
+109 silly addNameRange     '0.3.13-a',
+109 silly addNameRange     '0.4.0-a',
+109 silly addNameRange     '0.4.0-rc1',
+109 silly addNameRange     '0.4.0-rc2',
+109 silly addNameRange     '0.4.0-rc3',
+109 silly addNameRange     '0.4.0-rc4',
+109 silly addNameRange     '0.4.0-rc5',
+109 silly addNameRange     '0.4.0-rc6',
+109 silly addNameRange     '0.4.0-rc7',
+109 silly addNameRange     '0.4.0-rc8' ] ]
+110 verbose addNamed [ 'grunt', '0.4.5' ]
+111 verbose addNamed [ '0.4.5', '0.4.5' ]
+112 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+113 verbose lock grunt@0.4.5 /Users/quintinschnehage/.npm/81abf7ad-grunt-0-4-5.lock
+114 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+115 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+116 silly lockFile 240974bb-grunt-0-4-5 grunt@~0.4.5
+117 silly lockFile 240974bb-grunt-0-4-5 grunt@~0.4.5
+118 http 304 https://registry.npmjs.org/grunt-contrib-compass
+119 silly registry.get cb [ 304,
+119 silly registry.get   { date: 'Tue, 20 Jan 2015 14:32:13 GMT',
+119 silly registry.get     server: 'Apache',
+119 silly registry.get     via: '1.1 varnish',
+119 silly registry.get     'last-modified': 'Tue, 20 Jan 2015 14:32:13 GMT',
+119 silly registry.get     'cache-control': 'max-age=60',
+119 silly registry.get     etag: '"BNEKM5CY4WG98XG7ZGUBIAS65"',
+119 silly registry.get     age: '0',
+119 silly registry.get     'x-served-by': 'cache-lhr6329-LHR',
+119 silly registry.get     'x-cache': 'HIT',
+119 silly registry.get     'x-cache-hits': '1',
+119 silly registry.get     'x-timer': 'S1421764333.764664,VS0,VE83',
+119 silly registry.get     vary: 'Accept',
+119 silly registry.get     'content-length': '0',
+119 silly registry.get     'keep-alive': 'timeout=10, max=50',
+119 silly registry.get     connection: 'Keep-Alive' } ]
+120 verbose etag https://registry.npmjs.org/grunt-contrib-compass from cache
+121 silly addNameRange number 2 { name: 'grunt-contrib-compass',
+121 silly addNameRange   range: '>=1.0.1-0 <1.1.0-0',
+121 silly addNameRange   hasData: true }
+122 silly addNameRange versions [ 'grunt-contrib-compass',
+122 silly addNameRange   [ '0.1.0',
+122 silly addNameRange     '0.1.1',
+122 silly addNameRange     '0.1.2',
+122 silly addNameRange     '0.1.3',
+122 silly addNameRange     '0.2.0',
+122 silly addNameRange     '0.3.0',
+122 silly addNameRange     '0.4.0',
+122 silly addNameRange     '0.4.1',
+122 silly addNameRange     '0.5.0',
+122 silly addNameRange     '0.6.0',
+122 silly addNameRange     '0.7.0',
+122 silly addNameRange     '0.1.1-rc7',
+122 silly addNameRange     '0.1.1-rc8',
+122 silly addNameRange     '0.7.1',
+122 silly addNameRange     '0.7.2',
+122 silly addNameRange     '0.8.0',
+122 silly addNameRange     '0.9.0',
+122 silly addNameRange     '0.9.1',
+122 silly addNameRange     '1.0.0',
+122 silly addNameRange     '1.0.1' ] ]
+123 verbose addNamed [ 'grunt-contrib-compass', '1.0.1' ]
+124 verbose addNamed [ '1.0.1', '1.0.1' ]
+125 silly lockFile bc13c7dc-grunt-contrib-compass-1-0-1 grunt-contrib-compass@1.0.1
+126 verbose lock grunt-contrib-compass@1.0.1 /Users/quintinschnehage/.npm/bc13c7dc-grunt-contrib-compass-1-0-1.lock
+127 silly lockFile bc13c7dc-grunt-contrib-compass-1-0-1 grunt-contrib-compass@1.0.1
+128 silly lockFile bc13c7dc-grunt-contrib-compass-1-0-1 grunt-contrib-compass@1.0.1
+129 silly lockFile 86c41233-grunt-contrib-compass-1-0-1 grunt-contrib-compass@~1.0.1
+130 silly lockFile 86c41233-grunt-contrib-compass-1-0-1 grunt-contrib-compass@~1.0.1
+131 http 304 https://registry.npmjs.org/grunt-contrib-uglify
+132 silly registry.get cb [ 304,
+132 silly registry.get   { date: 'Tue, 20 Jan 2015 14:32:13 GMT',
+132 silly registry.get     server: 'Apache',
+132 silly registry.get     via: '1.1 varnish',
+132 silly registry.get     'last-modified': 'Tue, 20 Jan 2015 14:32:13 GMT',
+132 silly registry.get     'cache-control': 'max-age=60',
+132 silly registry.get     etag: '"AV2P9GYXLB5PKS4SX7ONS80IE"',
+132 silly registry.get     age: '0',
+132 silly registry.get     'x-served-by': 'cache-lhr6320-LHR',
+132 silly registry.get     'x-cache': 'HIT',
+132 silly registry.get     'x-cache-hits': '1',
+132 silly registry.get     'x-timer': 'S1421764333.806105,VS0,VE85',
+132 silly registry.get     vary: 'Accept',
+132 silly registry.get     'content-length': '0',
+132 silly registry.get     'keep-alive': 'timeout=10, max=50',
+132 silly registry.get     connection: 'Keep-Alive' } ]
+133 verbose etag https://registry.npmjs.org/grunt-contrib-uglify from cache
+134 silly addNameRange number 2 { name: 'grunt-contrib-uglify',
+134 silly addNameRange   range: '>=0.7.0-0 <0.8.0-0',
+134 silly addNameRange   hasData: true }
+135 silly addNameRange versions [ 'grunt-contrib-uglify',
+135 silly addNameRange   [ '0.1.0',
+135 silly addNameRange     '0.1.1',
+135 silly addNameRange     '0.1.2',
+135 silly addNameRange     '0.2.0',
+135 silly addNameRange     '0.2.1',
+135 silly addNameRange     '0.2.2',
+135 silly addNameRange     '0.2.3',
+135 silly addNameRange     '0.2.4',
+135 silly addNameRange     '0.2.5',
+135 silly addNameRange     '0.2.6',
+135 silly addNameRange     '0.2.7',
+135 silly addNameRange     '0.3.0',
+135 silly addNameRange     '0.3.1',
+135 silly addNameRange     '0.1.1-rc5',
+135 silly addNameRange     '0.1.1-rc6',
+135 silly addNameRange     '0.3.2',
+135 silly addNameRange     '0.3.3',
+135 silly addNameRange     '0.4.0',
+135 silly addNameRange     '0.5.0',
+135 silly addNameRange     '0.4.1',
+135 silly addNameRange     '0.5.1',
+135 silly addNameRange     '0.6.0',
+135 silly addNameRange     '0.7.0' ] ]
+136 verbose addNamed [ 'grunt-contrib-uglify', '0.7.0' ]
+137 verbose addNamed [ '0.7.0', '0.7.0' ]
+138 silly lockFile 0707808c-grunt-contrib-uglify-0-7-0 grunt-contrib-uglify@0.7.0
+139 verbose lock grunt-contrib-uglify@0.7.0 /Users/quintinschnehage/.npm/0707808c-grunt-contrib-uglify-0-7-0.lock
+140 silly lockFile 0707808c-grunt-contrib-uglify-0-7-0 grunt-contrib-uglify@0.7.0
+141 silly lockFile 0707808c-grunt-contrib-uglify-0-7-0 grunt-contrib-uglify@0.7.0
+142 silly lockFile ed126bab-grunt-contrib-uglify-0-7-0 grunt-contrib-uglify@~0.7.0
+143 silly lockFile ed126bab-grunt-contrib-uglify-0-7-0 grunt-contrib-uglify@~0.7.0
+144 http 304 https://registry.npmjs.org/matchdep
+145 silly registry.get cb [ 304,
+145 silly registry.get   { date: 'Tue, 20 Jan 2015 14:32:13 GMT',
+145 silly registry.get     server: 'Apache',
+145 silly registry.get     via: '1.1 varnish',
+145 silly registry.get     'last-modified': 'Tue, 20 Jan 2015 14:32:13 GMT',
+145 silly registry.get     'cache-control': 'max-age=60',
+145 silly registry.get     etag: '"GKLI8EV8DEZLNM1SL3V3OWUV"',
+145 silly registry.get     age: '0',
+145 silly registry.get     'x-served-by': 'cache-lhr6332-LHR',
+145 silly registry.get     'x-cache': 'HIT',
+145 silly registry.get     'x-cache-hits': '1',
+145 silly registry.get     'x-timer': 'S1421764333.782964,VS0,VE152',
+145 silly registry.get     vary: 'Accept',
+145 silly registry.get     'content-length': '0',
+145 silly registry.get     'keep-alive': 'timeout=10, max=50',
+145 silly registry.get     connection: 'Keep-Alive' } ]
+146 verbose etag https://registry.npmjs.org/matchdep from cache
+147 silly addNameRange number 2 { name: 'matchdep', range: '>=1.0.0-0 <1.1.0-0', hasData: true }
+148 silly addNameRange versions [ 'matchdep', [ '0.1.0', '0.1.1', '0.1.2', '0.2.0', '0.3.0' ] ]
+149 silly lockFile 3c206268-matchdep-1-0-0 matchdep@~1.0.0
+150 silly lockFile 3c206268-matchdep-1-0-0 matchdep@~1.0.0
+151 http 304 https://registry.npmjs.org/grunt-contrib-watch
+152 silly registry.get cb [ 304,
+152 silly registry.get   { date: 'Tue, 20 Jan 2015 14:32:13 GMT',
+152 silly registry.get     server: 'Apache',
+152 silly registry.get     via: '1.1 varnish',
+152 silly registry.get     'last-modified': 'Tue, 20 Jan 2015 14:32:14 GMT',
+152 silly registry.get     'cache-control': 'max-age=60',
+152 silly registry.get     etag: '"BVH62SECHP9LVB3HH3X9U5X0X"',
+152 silly registry.get     age: '0',
+152 silly registry.get     'x-served-by': 'cache-lhr6334-LHR',
+152 silly registry.get     'x-cache': 'HIT',
+152 silly registry.get     'x-cache-hits': '1',
+152 silly registry.get     'x-timer': 'S1421764333.794320,VS0,VE629',
+152 silly registry.get     vary: 'Accept',
+152 silly registry.get     'content-length': '0',
+152 silly registry.get     'keep-alive': 'timeout=10, max=50',
+152 silly registry.get     connection: 'Keep-Alive' } ]
+153 verbose etag https://registry.npmjs.org/grunt-contrib-watch from cache
+154 silly addNameRange number 2 { name: 'grunt-contrib-watch',
+154 silly addNameRange   range: '>=0.6.1-0 <0.7.0-0',
+154 silly addNameRange   hasData: true }
+155 silly addNameRange versions [ 'grunt-contrib-watch',
+155 silly addNameRange   [ '0.1.0',
+155 silly addNameRange     '0.1.1',
+155 silly addNameRange     '0.1.2',
+155 silly addNameRange     '0.1.3',
+155 silly addNameRange     '0.1.4',
+155 silly addNameRange     '0.2.0',
+155 silly addNameRange     '0.3.0',
+155 silly addNameRange     '0.3.1',
+155 silly addNameRange     '0.4.0',
+155 silly addNameRange     '0.4.1',
+155 silly addNameRange     '0.4.2',
+155 silly addNameRange     '0.4.3',
+155 silly addNameRange     '0.4.4',
+155 silly addNameRange     '0.5.0',
+155 silly addNameRange     '0.5.1',
+155 silly addNameRange     '0.5.2',
+155 silly addNameRange     '0.5.3',
+155 silly addNameRange     '0.6.0',
+155 silly addNameRange     '0.6.1',
+155 silly addNameRange     '0.2.0-a',
+155 silly addNameRange     '0.2.0-rc5',
+155 silly addNameRange     '0.2.0-rc7' ] ]
+156 verbose addNamed [ 'grunt-contrib-watch', '0.6.1' ]
+157 verbose addNamed [ '0.6.1', '0.6.1' ]
+158 silly lockFile 08049756-grunt-contrib-watch-0-6-1 grunt-contrib-watch@0.6.1
+159 verbose lock grunt-contrib-watch@0.6.1 /Users/quintinschnehage/.npm/08049756-grunt-contrib-watch-0-6-1.lock
+160 silly lockFile 08049756-grunt-contrib-watch-0-6-1 grunt-contrib-watch@0.6.1
+161 silly lockFile 08049756-grunt-contrib-watch-0-6-1 grunt-contrib-watch@0.6.1
+162 silly lockFile 82ce6ec8-grunt-contrib-watch-0-6-1 grunt-contrib-watch@~0.6.1
+163 silly lockFile 82ce6ec8-grunt-contrib-watch-0-6-1 grunt-contrib-watch@~0.6.1
+164 error notarget No compatible version found: matchdep@'>=1.0.0-0 <1.1.0-0'
+164 error notarget Valid install targets:
+164 error notarget ["0.1.0","0.1.1","0.1.2","0.2.0","0.3.0"]
+164 error notarget
+164 error notarget This is most likely not a problem with npm itself.
+164 error notarget In most cases you or one of your dependencies are requesting
+164 error notarget a package version that doesn't exist.
+165 error System Darwin 14.0.0
+166 error command "node" "/usr/local/bin/npm" "install"
+167 error cwd /Users/quintinschnehage/Sites/_GIT/buildstyleguide/project
+168 error node -v v0.10.33
+169 error npm -v 1.4.28
+170 error code ETARGET
+171 verbose exit [ 1, true ]

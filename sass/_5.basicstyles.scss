@@ -1,0 +1,24 @@
+@import "compass/css3";
+@import "_2.variables.scss";
+@import "_3.mixins.scss";
+
+body {
+	background: #272727;
+	// background-image: url(../images/buildings-black-top-tile.jpg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 1em;
+}
+
+h1 { font-size: 36px; }
+h2 { font-size: 24px; }
+h3 { font-size: 18px; }
+h4 { font-size: 16px; }
+h5 { font-size: 16px; }
+h6 { font-size: 16px; }

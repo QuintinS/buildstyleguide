@@ -1,0 +1,84 @@
+@import "compass/css3";
+@import "_2.variables.scss";
+@import "_3.mixins.scss";
+
+.buildings-background {
+	background: #2b4a5b url(../images/buildings-blue-full-tile.jpg) repeat-x;
+}
+
+.BuildBlueBackground {
+	
+	background: #1f435b url(../images/buildings-blue-top-tile.jpg);
+	background-position: bottom;
+	background-repeat: repeat-x;
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: #fff;
+	}
+
+}
+
+.BuildFooter {
+
+	.FooterCallsToAction {
+
+	}
+
+	.FooterMenu {
+
+	}
+
+	.LegalFooter {
+
+		padding: 10px 0;
+
+		background: #1a1a1a;
+
+		.LegalFooterLinks,
+		.LegalFooterCopyright {
+			text-align: center;
+		}
+
+		span {
+			color: #fff;
+		}
+
+		a {
+			color: #fff;
+			margin-left: 1em;
+			&:hover {
+				color: $build-color-blue;
+				text-decoration: none;
+			}
+
+		}
+	}
+
+}
+
+@media (min-width: 768px) {
+	.BuildFooter {
+		.LegalFooter {
+			.LegalFooterLinks {
+				text-align: right;
+			}
+			.LegalFooterCopyright {
+				text-align: left;
+			}
+		}
+	}	
+}
+
+@media (min-width: 992px) {
+
+	
+}
+
+@media (min-width: 1200px) {
+
+}
